@@ -581,9 +581,17 @@ footer strong {
     .logo { font-size: 23px; }
     .logo span { font-size: 8px; letter-spacing: 2px; }
 
-    nav a:not(.btn-nav) { display: none; }
+    nav a { display: inline-block; }
 
     nav { margin-top: 5px; }
+
+    nav {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 12px;
+}
 
     .hero { padding-top: 75px; }
 }
